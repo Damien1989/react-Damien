@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   const title = "Bienvenue sur mon site web"
@@ -8,12 +9,7 @@ function App() {
     age: 34,
   }
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>{title}</h1>
-        <p>{person.name} - {person.age} ans</p>
-      </header>
-    </div>
+    <Header />
   );
 }
 
