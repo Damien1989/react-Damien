@@ -1,8 +1,8 @@
-function Header({text}) {
+function Footer({text}) {
     return(
         <div>
         <h1>{text}</h1>
         </div>
     )
 }
-export default Header;
+export default Footer;
